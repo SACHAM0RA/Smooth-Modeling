@@ -1,5 +1,5 @@
 # Smooth-Modeling
-A new technique for improving symbolic execution and solving real nonlinear constraints.
+A new technique for improving symbolic execution and solving nonlinear real constraints.
 
 In folder "SatFuncGenerator" you find a C# project that generates corresponding approximative satisfaction functions of any given constraint.
 
