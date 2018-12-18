@@ -1,0 +1,7 @@
+C:\Users\Sachamora\Desktop\Smooth_Modeling\SatFuncGenerator\SatFuncGenerator\bin\Debug\SatFuncGenerator.exe.config
+C:\Users\Sachamora\Desktop\Smooth_Modeling\SatFuncGenerator\SatFuncGenerator\bin\Debug\SatFuncGenerator.exe
+C:\Users\Sachamora\Desktop\Smooth_Modeling\SatFuncGenerator\SatFuncGenerator\bin\Debug\SatFuncGenerator.pdb
+C:\Users\Sachamora\Desktop\Smooth_Modeling\SatFuncGenerator\SatFuncGenerator\obj\Debug\SatFuncGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Sachamora\Desktop\Smooth_Modeling\SatFuncGenerator\SatFuncGenerator\obj\Debug\SatFuncGenerator.csproj.ResolveComReference.cache
+C:\Users\Sachamora\Desktop\Smooth_Modeling\SatFuncGenerator\SatFuncGenerator\obj\Debug\SatFuncGenerator.exe
+C:\Users\Sachamora\Desktop\Smooth_Modeling\SatFuncGenerator\SatFuncGenerator\obj\Debug\SatFuncGenerator.pdb
