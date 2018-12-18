@@ -1,0 +1,17 @@
+c:\users\nwg5\documents\visual studio 2013\Projects\InfixToPostfixConverter\InfixToPostfixConverter\bin\Debug\InfixToPostfixConverter.exe.config
+c:\users\nwg5\documents\visual studio 2013\Projects\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.csprojResolveAssemblyReference.cache
+c:\users\nwg5\documents\visual studio 2013\Projects\InfixToPostfixConverter\InfixToPostfixConverter\bin\Debug\InfixToPostfixConverter.exe
+c:\users\nwg5\documents\visual studio 2013\Projects\InfixToPostfixConverter\InfixToPostfixConverter\bin\Debug\InfixToPostfixConverter.pdb
+c:\users\nwg5\documents\visual studio 2013\Projects\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.exe
+c:\users\nwg5\documents\visual studio 2013\Projects\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.pdb
+C:\Users\Saeed\Downloads\Telegram Desktop\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\bin\Debug\InfixToPostfixConverter.exe.config
+C:\Users\Saeed\Downloads\Telegram Desktop\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.exe
+C:\Users\Saeed\Downloads\Telegram Desktop\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.pdb
+C:\Users\Saeed\Downloads\Telegram Desktop\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\bin\Debug\InfixToPostfixConverter.exe
+C:\Users\Saeed\Downloads\Telegram Desktop\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\bin\Debug\InfixToPostfixConverter.pdb
+C:\Users\Saeed\Downloads\Telegram Desktop\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.csprojResolveAssemblyReference.cache
+C:\Users\Saeed\Downloads\Telegram Desktop\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.csproj.ResolveComReference.cache
+D:\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\bin\Debug\InfixToPostfixConverter.exe.config
+D:\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.csproj.ResolveComReference.cache
+D:\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.exe
+D:\InfixToPostfixConverter\InfixToPostfixConverter\InfixToPostfixConverter\obj\Debug\InfixToPostfixConverter.pdb
