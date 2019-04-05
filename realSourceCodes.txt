@@ -1,15 +1,16 @@
-    //Babylonian method for square root
+    	//Babylonian method for square root
 	float squareRoot(float n) 
-    { 
-        float x = n; 
-        float y = 1; 					
-        float e = 0.000001;				
-        while (x - y > e) { 			
-            x = (x + y) / 2; 			
-            y = n / x; 
-        } 
-        return x; 
-    }
+   	{ 
+        	float x = n; 
+        	float y = 1; 					
+        	float e = 0.000001;				
+        	while (x - y > e) 
+		{ 			
+            		x = (x + y) / 2; 			
+            		y = n / x; 
+        	} 
+        	return x; 
+    	}
 	
 	//Does the given point lie on the given line 
 	bool pointIsOnLine(float m, float c, float x, float y) 
