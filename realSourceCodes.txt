@@ -1,0 +1,142 @@
+    //Babylonian method for square root
+	float squareRoot(float n) 
+    { 
+        float x = n; 
+        float y = 1; 					
+        float e = 0.000001;				
+        while (x - y > e) { 			
+            x = (x + y) / 2; 			
+            y = n / x; 
+        } 
+        return x; 
+    }
+	
+	//Does the given point lie on the given line 
+	bool pointIsOnLine(float m, float c, float x, float y) 
+	{ 
+		if (y == ((m * x) + c))					
+			return true; 
+  
+		return false; 							
+	} 
+
+	// Check if the area of the inscribed circle in a hexagon is less than a value  
+	bool inscribedCircleAreaLessThan(float a , float x) 
+	{ 
+		if (a < 0)								
+			return -1; 
+  
+		float area = 2.355 * pow(a, 2);		
+  
+		if(area < x)							
+			return true;
+			
+		return false;							
+	} 
+	
+	// Count integers in a range which are divisible by their euler totient value
+	int countIntegers(int l, int r) 
+	{ 
+		int ans = 0;
+		int	i = 1; 
+		int v = power(2, i); 
+  
+		while (v <= r)							
+		{ 										
+			while (v <= r) 						
+			{ 									
+				if (v >= l) 					
+					ans++; 
+				v = v * 3; 
+			} 
+  
+			i++; 
+			v = power(2, i); 
+		} 
+  
+		if (l == 1) 
+			ans++; 
+  
+		return ans; 
+	}
+
+	// Given a point in polar coordinates, check if it is on the x^2
+	bool polarOnPoly(float theta, float r)
+	{
+		float x = r*cos(theta);
+		float y = r*sin(theta);
+		
+		if(y == pow(x,2))						
+			return true;
+		
+		return false;
+	}
+	
+	// Calculating roots of quadratic equation
+	int quadEqRoots(double a, double b, double c, double& x1, double& x2)
+	{
+		if(a==0 && b==0)						
+			return 0;
+			
+        if(a==0 && b!=0)						
+		{
+            x1=-(c/b);
+			return 1;
+		}
+                 
+		if((b*b-4*a*c)>0)						
+		{
+			x2=(b*b)-(4*a*c);
+			x1=-b+sqrt(x2);
+			return 2;
+        }
+
+		return 0;								
+	}
+	
+	// Check if two circles touch each other or not.   
+	int circleIntersect(double x1, double y1, double r1 
+						double x2, double y2, double r2) 
+	{ 
+		double distSq = (x1 - x2) * (x1 - x2) + 
+					 (y1 - y2) * (y1 - y2); 
+					 
+		double radSumSq = (r1 + r2) * (r1 + r2); 
+		
+		if (distSq == radSumSq) 				
+			return 1; 							
+			
+		if (distSq > radSumSq) 					
+			return -1; 							
+		
+		if (distSq < radSumSq) 					
+			return 0; 							
+	}
+
+	// Classify a triangle, given its sides 
+	string triangleType(double a, double b, double c) 
+	{  
+		if (a == b && b == c)					
+			return "Equilateral";  
+		else if (a == b || b == c) 				
+			return "Isosceles"; 
+		else
+			return "Scalene"; 					
+	}
+
+	// Check if the area of the incircle of a triangle is less than a value
+	int areaOfIncircleLessThan(float a, float b, float c, float a) 
+	{  
+		if (a < 0 || b < 0 || c < 0) 			
+			return -1; 							
+  
+		// semi-perimeter of the circle 
+		float p = (a + b + c) / 2; 
+  
+		float area = sqrt(p * (p - a) * (p - b) * (p - c)); 
+  
+		if(area < a)							
+			return 1;							
+		else									
+			return 0;							
+	}
